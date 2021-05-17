@@ -1,0 +1,106 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+}
+ /* Below are the styles given in the Introduction to CSS lesson */
+/* #left-container{
+    background-color: #eee;
+    width: 15%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+}
+
+#right-container{
+    background-color: #eee;
+    width: 15%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+}
+.plant-holder{
+    position: relative;
+    height: 13%;
+    left:20px;
+}
+
+.plant{
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}
+
+.jar-walls{
+    height: 76%;
+    width: 33%;
+    background: #d1e1df;
+    position: absolute;
+	bottom: 5%;
+	left: 33%;
+    opacity: 0.5;
+	z-index: 1;
+    border-radius: 3.5rem 3.5rem 2rem 2rem;
+}
+.jar-top {
+	width: 25%;
+	height: 5%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 80.8%;
+	left: 37%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 25%;
+	height: 1%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 4.3%;
+	left: 37.8%;
+	opacity: 0.7;
+}
+.dirt {
+	width: 32%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 4.8rem 4.8rem;
+	bottom:5.3%;
+	left: 33.4%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+
+.jar-glossy-long{
+    width: 3.8%;
+    height: 25%;
+    background: #d4fcf7;
+    position: absolute;
+    top: 55%;
+    left:5.5%;
+    border-radius: 3rem;
+    opacity: 0.8;
+}
+
+.jar-glossy-short{
+    width: 3.8%;
+    height: 7.5%;
+    background: #d4fcf7;
+    position: absolute;
+    top: 42%;
+    left:5.5%;
+    border-radius: 3rem;
+    opacity: 0.8;
+} */
