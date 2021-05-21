@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -6,39 +11,59 @@ h1 {
 	color: #3a241d;
 	text-align: center;
 }
- /* Below are the styles given in the Introduction to CSS lesson */
-/* #left-container{
+
+ .grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.6fr 3fr 0.6fr;
+    grid-template-areas: "leftContainer terrarium rightContainer"; 
+ }
+.grid-item1{
+    grid-area: leftContainer;
+}
+
+.grid-item2{
+    grid-area: terrarium;
+}
+
+.grid-item3{
+grid-area: rightContainer;
+    
+}
+ #left-container{
     background-color: #eee;
-    width: 15%;
-    left: 0;
+    /* width: 80%; */
+    /* left: 0;
     top: 0;
-    position: absolute;
-    height: 100%;
+    position: absolute; */
+    height: 100vh;
     padding: 10px;
+
 }
 
 #right-container{
     background-color: #eee;
-    width: 15%;
-    right: 0;
+    /* width: 80%; */
+    /* right: 0;
     top: 0;
-    position: absolute;
-    height: 100%;
+    position: absolute; */
+    height: 100vh;
     padding: 10px;
 }
 .plant-holder{
-    position: relative;
+    /* position: relative; */
     height: 13%;
-    left:20px;
 }
 
 .plant{
-    position: absolute;
+    /* position: absolute; */
     max-width: 150%;
     max-height: 150%;
     z-index: 2;
 }
 
+
+/* Terrarium */
 .jar-walls{
     height: 76%;
     width: 33%;
@@ -103,4 +128,4 @@ h1 {
     left:5.5%;
     border-radius: 3rem;
     opacity: 0.8;
-} */
+}
