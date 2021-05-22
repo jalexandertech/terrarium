@@ -51,12 +51,12 @@ grid-area: rightContainer;
     padding: 10px;
 }
 .plant-holder{
-    /* position: relative; */
+    position: relative;
     height: 13%;
 }
 
 .plant{
-    /* position: absolute; */
+    position: absolute;
     max-width: 150%;
     max-height: 150%;
     z-index: 2;
